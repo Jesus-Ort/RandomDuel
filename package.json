@@ -1,0 +1,27 @@
+{
+  "name": "randomduel",
+  "version": "1.0.0",
+  "description": "bot for discord ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesus-Ort/RandomDuel.git"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Yizuhz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesus-Ort/RandomDuel/issues"
+  },
+  "homepage": "https://github.com/Jesus-Ort/RandomDuel#readme",
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.1"
+  }
+}
