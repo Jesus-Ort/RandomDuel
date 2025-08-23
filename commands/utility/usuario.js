@@ -3,8 +3,8 @@ const { SlashCommandBuilder } = require('discord.js');
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('user')
-		.setDescription('Provides information about the user.'),
+		.setDescription('devuelve información sobre el usuario.'),
 	async execute(interaction) {
-		await interaction.reply(`This command was run by ${interaction.user.username}, who joined on ${interaction.member.joinedAt}.`);
+		await interaction.reply(`Este comando fue usado por ${interaction.user.username}, se unió el ${interaction.member.joinedAt}.`);
 	},
 };
